@@ -87,7 +87,7 @@ function App() {
         const shuffle = arrayShuffle(welcomeSprites);
         setChar(shuffle[0]);
 
-        toast.info("Olá, me chamo Lolita. Posso te ajudar com dicas para a economia de água!");
+        toast.info("Olá, me chamo Aurea. Posso te ajudar com dicas para a economia de água!");
         toast.info("Todos os dias darei três dicas para você. Tente ao menos completar 1 por dia.");
         toast("Sempre que completar algo, clique sobre a tarefa para me contar.");
         toast.info("Confio em você para ajudar a cuidar melhor do nosso planeta!", {
@@ -128,14 +128,14 @@ function App() {
       <>
         <main className="h-screen w-screen bg-blue-700 flex flex-col items-center">
           <section className={"flex flex-col justify-center items-center p-5 text-2xl max-w-[600px]"}>
-            <h1>Poupe água com a Lolita!</h1>
+            <h1>Poupe água com a Aurea!</h1>
           </section>
           <section className={"flex flex-col justify-center items-center flex-grow max-w-[600px]"}>
             <Char type={char}/>
           </section>
 
           <section className={"mb-2 px-2 flex flex-col justify-center max-w-[600px]"}>
-            <h4 className="text-xl mb-2 text-center" hidden={actionsState.length === 0}>Conte para a Lolita o
+            <h4 className="text-xl mb-2 text-center" hidden={actionsState.length === 0}>Conte para a Aurea o
               que você conseguiu fazer hoje:</h4>
             <h4 className="text-xl mb-2 text-center" hidden={actionsState.length != 0}>Você completou todas as
               tarefas! Parabéns!</h4>

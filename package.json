@@ -1,9 +1,9 @@
 {
-  "name": "untitled",
+  "name": "aurea",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://r33djr.github.io/lolita",
+  "homepage": "https://r33djr.github.io/aurea",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
